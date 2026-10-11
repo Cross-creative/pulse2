@@ -93,6 +93,7 @@ const N=64;
 const C={a:[124,92,255],b:[255,92,138],base:[11,11,20]};
 let player,an=null,fr=null,peak=.05,mood=.3,target=.45,kick=0,lastBeat=0,beats=[],info=false,lastVol=-1,slowE=0,fastE=0,inten=0;
 const fh=[],prev=new Array(N).fill(0);
+const lv=new Array(N).fill(0),sm=new Array(N).fill(0),pk=new Array(N).fill(0);
 
 const tag=document.createElement('script');
 tag.src='https://www.youtube.com/iframe_api';
